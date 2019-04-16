@@ -946,6 +946,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/aws-lambda@^8.10.19":
+  version "8.10.24"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.24.tgz#89a20cd91957322e26dbfea7f651b970460c8c0c"
+  integrity sha512-9F70bcb2oBGZUZCyisE1Ap3vwgt04uiSmr4s9mhQf89vBrttgraBs2Rc8l9YrKiemCndCH7wxnYNWk5qEuv6rA==
+
 "@types/aws-sdk@^2.7.0":
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/@types/aws-sdk/-/aws-sdk-2.7.0.tgz#83588b3d14ebdca1d4ce5e023387577568ce82f3"
@@ -7410,10 +7415,12 @@ serialize-javascript@^1.4.0:
   resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.5.0.tgz#1aa336162c88a890ddad5384baebc93a655161fe"
   integrity sha512-Ga8c8NjAAp46Br4+0oZ2WxJCwIzwP60Gq1YPgU+39PiTVxyed/iKE/zyZI6+UlVYH5Q4PaQdHhcegIFPZTUfoQ==
 
-serverless-http@^1.5.5:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-1.7.2.tgz#2862e511b70b59c6a6a1d7545b7826344b3da183"
-  integrity sha512-6FKPAiofnyCwpipEX8DOC0q0gQgml+B+9+Tf6Sy1uWX7Zvy/vAcZDEDuiRNsibZTfQlCxflHeh46YeiIeTRHyw==
+serverless-http@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-1.10.0.tgz#6bebde07473276495c0b31fbdb5c800e2e0e35fe"
+  integrity sha512-m8CGMY6Gf1FMossOPDmj4wBHRY80WBzrWKfNlNvoGvXfA23m/N5rmLq46G4HwQes6WGdC+x+tWsZEYGxkvwx9A==
+  optionalDependencies:
+    "@types/aws-lambda" "^8.10.19"
 
 set-blocking@^2.0.0, set-blocking@~2.0.0:
   version "2.0.0"
