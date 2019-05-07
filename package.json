@@ -49,7 +49,7 @@
     "@types/aws-sdk": "^2.7.0",
     "@types/koa": "^2.0.45",
     "@types/koa-router": "^7.0.28",
-    "apollo-server-koa": "^2.0.0",
+    "apollo-server-koa": "^2.5.0",
     "ava": "^1.4.1",
     "aws-sdk-mock": "^4.0.0",
     "coveralls": "^3.0.1",
